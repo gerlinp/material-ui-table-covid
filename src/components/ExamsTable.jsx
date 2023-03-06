@@ -54,10 +54,12 @@ function ExamsTable() {
     }
   }
 
-  console.log(`Stevens ${data.patientId}`)
+  // console.log(`Stevens ${jsonArr}`)
+
   useEffect(() => {
     fetchData(url);
   }, []);
+
 
   // const exams = Array.from(data)
   // console.log(`Hello from ${exams.exams}`)
